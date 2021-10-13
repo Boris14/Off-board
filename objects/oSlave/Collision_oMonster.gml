@@ -11,14 +11,24 @@ if(place_meeting(x - 60, y, oMonster) and place_meeting(x + 60, y, oMonster)){
 	with(EatingMonster){
 		switch(sprite_index){
 			case sPurpleMonsterIdle:
-				attitude++;
+				if(attitude < 0){
+					attitude = 0;
+				}
+				else{
+					attitude++;
+				}
 				sprite_index = sPurpleMonsterBiting;
 				image_index = 0;
 				alarm[0] = 31;
 				break;
 			
 			case sGreenMonsterIdle:
-				attitude++;
+				if(attitude < 0){
+					attitude = 0;
+				}
+				else{
+					attitude++;
+				}
 				sprite_index = sGreenMonsterBiting;
 				image_index = 0;
 				alarm[0] = 33;
@@ -35,9 +45,10 @@ if(place_meeting(x - 60, y, oMonster) and place_meeting(x + 60, y, oMonster)){
 				attitude--;		
 			}
 		}
-		instance_destroy();
 		with(oGame){
 			alarm[0] = room_speed;	
-		}	
-	}
+		}
+		instance_destroy();
+		return;
+	}	
 }

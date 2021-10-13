@@ -33,10 +33,7 @@ image_index = 0;
 
 if(place_meeting(x - 10, y, oShipHitbox)){
 	with(oShip){
-		health--;	
-		if(health <= 0){
-			instance_destroy();	
-		}
+		health--;
 	}
 	alarm[0] = 23;
 }

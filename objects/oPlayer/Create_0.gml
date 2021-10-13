@@ -4,6 +4,7 @@
 //Player variables
 kick = 0;
 minKick = 8;
+bKickReleased = false;
 strength_direction = 1;
 
 //Kick bar variables

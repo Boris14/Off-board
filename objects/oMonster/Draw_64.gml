@@ -1,4 +1,4 @@
-/// @description Draw Rage
+/// @description Draw Attitude
 // You can write your code in this editor
 if(!bDisplayAttitude){
 	return;	

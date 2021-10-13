@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 with(oSlave){
-	if not isKicked{
-		isKicked = true;
+	if not bIsKicked{
+		bIsKicked = true;
 		hsp = other.minKick + other.kick;
 		vsp = -(hsp * 0.5);
 	}

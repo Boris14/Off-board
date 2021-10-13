@@ -13,7 +13,7 @@ if(hsp > 0){
 }
 
 //Rotate the slave
-if(isKicked){
+if(bIsKicked){
 	if(sprite_index != sSlaveKicked){
 		sprite_index = sSlaveKicked;	
 	}

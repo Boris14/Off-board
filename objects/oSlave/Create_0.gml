@@ -4,5 +4,5 @@
 vsp = 0;
 hsp = 0;
 grv = 0.3;
-isKicked = false;
+bIsKicked = false;
 deathY = irandom_range(660, 750);

@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a7588917-e955-45ab-a662-c595bdaea398","path":"sprites/sSky/sSky.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a7588917-e955-45ab-a662-c595bdaea398","path":"sprites/sSky/sSky.yy",},"LayerId":{"name":"413ec3b0-3f86-448c-abed-7d6fbd755b70","path":"sprites/sSky/sSky.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sSky","path":"sprites/sSky/sSky.yy",},"resourceVersion":"1.0","name":"a7588917-e955-45ab-a662-c595bdaea398","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a7588917-e955-45ab-a662-c595bdaea398","path":"sprites/sGameOver/sGameOver.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a7588917-e955-45ab-a662-c595bdaea398","path":"sprites/sGameOver/sGameOver.yy",},"LayerId":{"name":"413ec3b0-3f86-448c-abed-7d6fbd755b70","path":"sprites/sGameOver/sGameOver.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sGameOver","path":"sprites/sGameOver/sGameOver.yy",},"resourceVersion":"1.0","name":"a7588917-e955-45ab-a662-c595bdaea398","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sSky","path":"sprites/sSky/sSky.yy",},
+    "spriteId": {"name":"sGameOver","path":"sprites/sGameOver/sGameOver.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d68232e3-0dbf-4ed9-a04e-deb33c3c0f84","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a7588917-e955-45ab-a662-c595bdaea398","path":"sprites/sSky/sSky.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8e5e381d-488c-45ed-ad6f-13dd6d963235","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a7588917-e955-45ab-a662-c595bdaea398","path":"sprites/sGameOver/sGameOver.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sSky","path":"sprites/sSky/sSky.yy",},
+    "parent": {"name":"sGameOver","path":"sprites/sGameOver/sGameOver.yy",},
     "resourceVersion": "1.3",
-    "name": "sSky",
+    "name": "sGameOver",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Backgrounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sSky",
+  "name": "sGameOver",
   "tags": [],
   "resourceType": "GMSprite",
 }

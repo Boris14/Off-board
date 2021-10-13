@@ -4,7 +4,8 @@
 var xx = 450;
 var yy = 460;
 
-if(slavesLeft > 0){
+if(!instance_exists(oSlave)){
 	instance_create_layer(xx, yy, "Instances", oSlave);
-	slavesLeft--;
+
+	score++;
 }

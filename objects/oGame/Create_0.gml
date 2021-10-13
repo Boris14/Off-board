@@ -1,7 +1,6 @@
-/// @description Insert description here
+/// @description Establish variables
 // You can write your code in this editor
 
-slavesLeft = 50;
 score = 0;
 
 randomize();

@@ -9,3 +9,9 @@ if(attitude <= worstAttitude and bDisplayAttitude){
 else if(attitude > worstAttitude){
 	hspeed = 0;	
 }
+
+if(attitude >= bestAttitude){
+	if(!alarm[2] and !alarm[0]){
+		alarm[2] = 20;
+	}
+}

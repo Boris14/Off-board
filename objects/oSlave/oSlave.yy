@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sSlaveIdle",
-    "path": "sprites/sSlaveIdle/sSlaveIdle.yy",
+    "name": "sNormalSlaveIdle",
+    "path": "sprites/sNormalSlaveIdle/sNormalSlaveIdle.yy",
   },
   "solid": false,
   "visible": true,

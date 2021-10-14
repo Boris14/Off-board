@@ -12,8 +12,8 @@ switch(room){
 	
 	case rGame:
 		draw_text_transformed_color(room_width * 0.05, room_height * 0.08,
-									"Rounds: " + string(score), 
-									1.6, 1.6, 0, c_black, c_black, c_black, c_black, 1);
+									"Score: " + string(score), 
+									2, 2, 0, c_yellow, c_yellow, c_yellow, c_yellow, 1);
 		break;
 		
 	case rGameOver:

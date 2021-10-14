@@ -6,6 +6,23 @@ audio_play_sound(sndKick, 0, 0);
 with(oSlave){
 	if not bIsKicked{
 		bIsKicked = true;
+		switch(sprite_index){
+			case sNormalSlaveIdle:
+				sprite_index = sNormalSlaveKicked;
+				break;
+				
+			case sPurpleSlaveIdle:
+				sprite_index = sPurpleSlaveKicked;
+				break;
+				
+			case sGreenSlaveIdle:
+				sprite_index = sGreenSlaveKicked;
+				break;
+				
+			default:
+				break;
+			
+		}
 		hsp = other.minKick + other.kick;
 		vsp = -(hsp * 0.5);
 	}

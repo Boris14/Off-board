@@ -14,9 +14,6 @@ if(hsp > 0){
 
 //Rotate the slave
 if(bIsKicked){
-	if(sprite_index != sSlaveKicked){
-		sprite_index = sSlaveKicked;	
-	}
 	image_angle = image_angle - 5;
 }
 

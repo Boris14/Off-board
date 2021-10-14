@@ -33,6 +33,8 @@ y = y + vsp;
 
 if(y >= deathY){
 	instance_create_layer(x, y, "Instances", oSplash);
+	
+	audio_play_sound(choose(sndSplash1, sndSplash2), 0, false);
 	instance_destroy();
 	with(oMonster){
 		attitude--;	

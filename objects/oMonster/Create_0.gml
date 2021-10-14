@@ -1,11 +1,13 @@
 /// @description Establish variables
 // You can write your code in this editor
 
-sprite_index = choose(sPurpleMonsterIdle, sGreenMonsterIdle);
-image_speed = 0;
-startMovementDelay = irandom_range(1, 100);
+attitude = 0;
 worstAttitude = irandom_range(-4, -6);
 bestAttitude = irandom_range(2, 3);
-attitude = 0;
 bDisplayAttitude = true;
 redColor = make_color_rgb(238, 20, 91);
+
+sprite_index = choose(sPurpleMonsterRising, sGreenMonsterRising);
+audio_play_sound(choose(sndMonsterRising1, sndMonsterRising2), 0, 0);
+audio_play_sound(choose(sndWater1, sndWater2), 0, 0);
+alarm[1] = 23;

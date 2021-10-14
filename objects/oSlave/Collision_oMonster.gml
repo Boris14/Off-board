@@ -9,6 +9,10 @@ if(EatingMonster.attitude <= EatingMonster.worstAttitude){
 
 if(place_meeting(x - 60, y, oMonster) and place_meeting(x + 60, y, oMonster)){
 	with(EatingMonster){
+		audio_pause_sound(sndMonsterIdle);
+		if(!audio_is_playing(sndMonsterBite)){
+			audio_play_sound(sndMonsterBite, 0, false);
+		}
 		switch(sprite_index){
 			case sPurpleMonsterIdle:
 				if(attitude < 0){
@@ -48,6 +52,7 @@ if(place_meeting(x - 60, y, oMonster) and place_meeting(x + 60, y, oMonster)){
 		with(oGame){
 			alarm[0] = room_speed;	
 		}
+		audio_play_sound(sndSlaveEaten, 0, 0);
 		instance_destroy();
 		return;
 	}	

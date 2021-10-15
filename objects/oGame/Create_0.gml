@@ -3,7 +3,6 @@
 
 score = 0;
 
-scoreToTransfer = 0;
 eatenSlaveColor = "Normal";
 fedMonster = noone;
 bGameRunning = false;

@@ -9,21 +9,9 @@ if(!bGameRunning){
 }
 
 if(!instance_exists(oSlave)){
-	instance_create_layer(xx, yy, "Instances", oSlave);
 	
 	if(instance_exists(fedMonster)){
-		if(fedMonster.color == eatenSlaveColor){
-			score += 300;
-			instance_create_layer(fedMonster.x, fedMonster.y - 50, "Instances", oMessage).scoreMsg = 300;
-		}
-		else{
-			instance_create_layer(fedMonster.x, fedMonster.y - 50, "Instances", oMessage).scoreMsg = 100;
-			score += 100;		
-		}
-	}
-	
-	with(oMonster){
-		if(instance_exists(other.fedMonster)){
+		with(oMonster){
 			if(id != other.fedMonster.id){
 				attitude--;
 			}
@@ -34,10 +22,14 @@ if(!instance_exists(oSlave)){
 				else{
 					attitude++;	
 				}
+				if(other.fedMonster.color == other.eatenSlaveColor)	attitude++;
 			}
 		}
+		instance_create_layer(fedMonster.x, fedMonster.y - 50, "Instances", oMessage).scoreMsg = 100;
+		score += 100;		
 	}
 	
-	fedMonster = noone;
-	scoreToTransfer = 0;
+	instance_create_layer(xx, yy, "Instances", oSlave);
 }
+
+fedMonster = noone;

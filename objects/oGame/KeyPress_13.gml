@@ -11,6 +11,7 @@ switch(room){
 		
 	case rGameOver:
 		room_goto(rMenu);
+		score = 0;
 		break;
 
 	default:

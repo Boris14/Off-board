@@ -6,5 +6,6 @@ score = 0;
 eatenSlaveColor = "Normal";
 fedMonster = noone;
 bGameRunning = false;
+destroyedMonsterCount = 0;
 
 randomize();

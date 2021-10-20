@@ -1,7 +1,7 @@
 /// @description Establish key variables
 // You can write your code in this editor
 						
-color = choose("Normal", "Normal", "Purple", "Green");
+color = choose("Normal", "Normal", "Purple", "Green", "Orange");
 
 switch(color){
 	case "Normal":
@@ -14,6 +14,10 @@ switch(color){
 		
 	case "Green":
 		sprite_index = sGreenSlaveIdle;
+		break;
+		
+	case "Orange":
+		sprite_index = sOrangeSlaveIdle;
 		break;
 		
 	default:

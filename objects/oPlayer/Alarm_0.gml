@@ -19,6 +19,10 @@ with(oSlave){
 				sprite_index = sGreenSlaveKicked;
 				break;
 				
+			case sOrangeSlaveIdle:
+				sprite_index = sOrangeSlaveKicked;
+				break;
+				
 			default:
 				break;
 			

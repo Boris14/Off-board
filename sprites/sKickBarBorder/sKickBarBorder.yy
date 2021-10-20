@@ -55,7 +55,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 4,
-    "yorigin": 4,
+    "yorigin": 216,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sKickBarBorder","path":"sprites/sKickBarBorder/sKickBarBorder.yy",},

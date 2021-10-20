@@ -2,12 +2,13 @@
 // You can write your code in this editor
 
 attitude = 0;
-worstAttitude = irandom_range(-4, -6);
-bestAttitude = irandom_range(2, 3);
+minWorstAttitude = 0;
+worstAttitude = 0;
+bestAttitude = irandom_range(2, 4);
 bDisplayAttitude = true;
 redColor = make_color_rgb(238, 20, 91);
 
-color = choose("Purple", "Green");
+color = choose("Purple", "Green", "Orange");
 
 switch(color){
 	case "Purple":
@@ -16,6 +17,10 @@ switch(color){
 		
 	case "Green":
 		sprite_index = sGreenMonsterRising;
+		break;
+		
+	case "Orange":
+		sprite_index = sOrangeMonsterRising;
 		break;
 	
 	default:

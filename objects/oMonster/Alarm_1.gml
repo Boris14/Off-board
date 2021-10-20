@@ -14,6 +14,11 @@ switch(sprite_index){
 		image_index = 0;
 		break;
 		
+	case sOrangeMonsterRising:
+		sprite_index = sOrangeMonsterIdle;
+		image_index = 0;
+		break;
+		
 	default:
 		break;
 }

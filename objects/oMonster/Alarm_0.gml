@@ -22,8 +22,21 @@ switch(sprite_index){
 		}
 		break;
 		
+	case sOrangeMonsterBiting:
+		if(place_meeting(x - 10, y, oShipHitbox)){
+			sprite_index = sOrangeMonsterDiving;
+		}
+		else{
+			sprite_index = sOrangeMonsterIdle;		
+		}
+		break;
+		
 	case sPurpleMonsterDiving:
 	case sGreenMonsterDiving:
+	case sOrangeMonsterDiving:
+		with(oGame){
+			destroyedMonsterCount++;	
+		}
 		instance_destroy();
 		break;
 		

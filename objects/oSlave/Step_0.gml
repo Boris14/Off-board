@@ -34,6 +34,7 @@ if(y >= deathY){
 	audio_play_sound(choose(sndSplash1, sndSplash2), 0, false);
 	instance_destroy();
 	with(oMonster){
+		instance_create_layer(x, y - 50, "Instances", oMessage).bShowUnfriendlyIcon = true;
 		attitude--;	
 	}
 	with(oGame){

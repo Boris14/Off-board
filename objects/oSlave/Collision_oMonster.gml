@@ -8,7 +8,7 @@ if(other.attitude <= other.worstAttitude){
 	return;	
 }
 
-if(place_meeting(x - 50, y, oMonster) and place_meeting(x + 50, y, oMonster)){
+if(place_meeting(x - 30, y, oMonster) and place_meeting(x + 30, y, oMonster)){
 	with(other){
 		audio_pause_sound(sndMonsterIdle);
 		if(!audio_is_playing(sndMonsterBite)){
@@ -25,6 +25,12 @@ if(place_meeting(x - 50, y, oMonster) and place_meeting(x + 50, y, oMonster)){
 				sprite_index = sGreenMonsterBiting;
 				image_index = 0;
 				alarm[0] = 33;
+				break;
+				
+			case sOrangeMonsterIdle:
+				sprite_index = sOrangeMonsterBiting;
+				image_index = 0;
+				alarm[0] = 32;
 				break;
 				
 			default:

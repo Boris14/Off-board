@@ -11,9 +11,10 @@ if(!bGameRunning){
 if(!instance_exists(oSlave)){
 	
 	if(instance_exists(fedMonster)){
+		if(combo < 10)	combo++;
 		var msg = instance_create_layer(fedMonster.x, fedMonster.y - 50, "Instances", oMessage);
-		msg.scoreMsg = 100;
-		score += 100;
+		msg.scoreMsg = 100 * combo;
+		score += 100 * combo;
 		audio_play_sound(sndGetScore, 0, false);
 		if((fedMonster.color == "Green" and fedMonster.attitude + 1 >= fedMonster.bestAttitude) or
 			(fedMonster.color == "Green" and fedMonster.attitude + 2 >= fedMonster.bestAttitude and fedMonster.color == eatenSlaveColor)){

@@ -1,4 +1,4 @@
-/// @description Start Game
+/// @description Switch rooms
 // You can write your code in this editor
 
 
@@ -12,6 +12,10 @@ switch(room){
 	case rGameOver:
 		room_goto(rMenu);
 		score = 0;
+		break;
+		
+	case rInfo:
+		room_goto(rMenu);
 		break;
 
 	default:

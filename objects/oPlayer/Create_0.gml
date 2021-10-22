@@ -8,5 +8,5 @@ bKickReleased = false;
 strength_direction = 1;
 
 //Kick bar variables
-kickbar_x = room_width * 0.96;
-kickbar_y = room_height * 0.6;
+kickbar_x = room_width * 0.18;
+kickbar_y = room_height * 0.62;

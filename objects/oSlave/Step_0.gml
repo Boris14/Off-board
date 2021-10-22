@@ -38,6 +38,7 @@ if(y >= deathY){
 		attitude--;	
 	}
 	with(oGame){
+		combo = 0;
 		alarm[0] = room_speed;	
 	}
 }

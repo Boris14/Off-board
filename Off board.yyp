@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"oShip","path":"objects/oShip/oShip.yy",},"order":5,},
+    {"id":{"name":"sSkyWithoutClouds","path":"sprites/sSkyWithoutClouds/sSkyWithoutClouds.yy",},"order":7,},
     {"id":{"name":"sndMonsterRising2","path":"sounds/sndMonsterRising2/sndMonsterRising2.yy",},"order":1,},
     {"id":{"name":"sPurpleMonsterIdle","path":"sprites/sPurpleMonsterIdle/sPurpleMonsterIdle.yy",},"order":2,},
     {"id":{"name":"sOrangeSlaveIdle","path":"sprites/sOrangeSlaveIdle/sOrangeSlaveIdle.yy",},"order":8,},
@@ -31,6 +32,7 @@
     {"id":{"name":"sPlayerKicking","path":"sprites/sPlayerKicking/sPlayerKicking.yy",},"order":1,},
     {"id":{"name":"sMonsterPosition","path":"sprites/sMonsterPosition/sMonsterPosition.yy",},"order":1,},
     {"id":{"name":"sOrangeMonsterDiving","path":"sprites/sOrangeMonsterDiving/sOrangeMonsterDiving.yy",},"order":11,},
+    {"id":{"name":"rInfo","path":"rooms/rInfo/rInfo.yy",},"order":3,},
     {"id":{"name":"sPurpleSlaveKicked","path":"sprites/sPurpleSlaveKicked/sPurpleSlaveKicked.yy",},"order":5,},
     {"id":{"name":"sndReverseKickCharge","path":"sounds/sndReverseKickCharge/sndReverseKickCharge.yy",},"order":17,},
     {"id":{"name":"sKickBarBorder","path":"sprites/sKickBarBorder/sKickBarBorder.yy",},"order":1,},
@@ -88,6 +90,7 @@
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"roomId":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
     {"roomId":{"name":"rGameOver","path":"rooms/rGameOver/rGameOver.yy",},},
+    {"roomId":{"name":"rInfo","path":"rooms/rInfo/rInfo.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

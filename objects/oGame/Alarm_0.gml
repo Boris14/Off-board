@@ -11,7 +11,10 @@ if(!bGameRunning){
 if(!instance_exists(oSlave)){
 	
 	if(instance_exists(fedMonster)){
-		if(combo < 10)	combo++;
+		if(combo < 10){
+			combo++;
+		}
+		comboTextSize = 2.5;
 		var msg = instance_create_layer(fedMonster.x, fedMonster.y - 50, "Instances", oMessage);
 		msg.scoreMsg = 100 * combo;
 		score += 100 * combo;

@@ -26,6 +26,7 @@
     {"id":{"name":"sndMonsterBite","path":"sounds/sndMonsterBite/sndMonsterBite.yy",},"order":5,},
     {"id":{"name":"oSplash","path":"objects/oSplash/oSplash.yy",},"order":4,},
     {"id":{"name":"sndSplash1","path":"sounds/sndSplash1/sndSplash1.yy",},"order":10,},
+    {"id":{"name":"sndButtonPress","path":"sounds/sndButtonPress/sndButtonPress.yy",},"order":21,},
     {"id":{"name":"sndKick","path":"sounds/sndKick/sndKick.yy",},"order":0,},
     {"id":{"name":"sndKickCharge","path":"sounds/sndKickCharge/sndKickCharge.yy",},"order":16,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":3,},
